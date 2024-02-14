@@ -1,0 +1,1109 @@
+@media screen and (max-width: 1440px) {
+  .workshop {
+    .container {
+      .ws_about {
+        h2 {
+          margin-bottom: 60px;
+        }
+
+        .about_items {
+          .about_item {
+            .item_number {
+              font-size: 82px;
+            }
+
+            .item_number.small {
+              width: 127px;
+              height: 88px;
+            }
+
+            .item_number.big {
+              width: 260px;
+              height: 88px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+  .advantages, .ws_about, .products, .ideas, .price, .contacts, .projects {
+    .container {
+      h2 {
+        font-size: 60px;
+      }
+    }
+  }
+  .products {
+    .prod_items {
+      .prod_item {
+        .item_info {
+          h3 {
+            font-size: 36px;
+          }
+        }
+      }
+    }
+  }
+  .price {
+    .container {
+      .price_info {
+        h3 {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+  .contacts {
+    .container {
+      div {
+      font-size: 32px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .projects {
+    .container {
+      .proj_items {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .header {
+    .container {
+      .country_block {
+        display: none;
+      }
+    }
+  }
+  .workshop {
+    .container {
+      .ws_img {
+        img {
+          left: -14%;
+        }
+      }
+
+      .ws_about {
+        max-width: 705px;
+
+        h2 {
+          font-size: 56px;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+  .advantages {
+    .adv_content {
+      .container {
+        .adv_img {
+          margin-left: -190px;
+        }
+
+        .adv_items {
+          padding: 40px 0 40px 66px;
+
+          .adv_item {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .products {
+    .container {
+      .h2_text {
+        max-width: 870px;
+      }
+    }
+  }
+  .advantages, .ws_about, .products, .ideas, .price, .contacts, .projects {
+    .container {
+      h2 {
+        font-size: 56px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .workshop {
+    .container {
+
+      .ws_about {
+        max-width: 655px;
+
+        h2 {
+          font-size: 52px;
+        }
+
+        .about_items {
+          .about_item {
+            .item_number {
+              font-size: 74px;
+            }
+
+            .item_number.small {
+              width: 105px;
+              height: 75px;
+            }
+
+            .item_number.big {
+              width: 215px;
+              height: 75px;
+            }
+
+          }
+        }
+
+        .about_img {
+          right: -22%;
+        }
+      }
+    }
+  }
+  .advantages, .ws_about, .products, .ideas, .price, .contacts, .projects {
+    .container {
+      h2 {
+        font-size: 52px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    .container {
+      .main_logo {
+        width: 260px;
+
+        img {
+          max-width: 100%;
+        }
+      }
+
+      .main_name {
+        margin-top: -60px;
+        font-size: 90px;
+      }
+
+      .main_description {
+        font-size: 36px;
+      }
+    }
+  }
+  .footer {
+    padding: 40px 0;
+
+    .container {
+      justify-content: space-between;
+      .footer_logo {
+        margin-right: 0;
+        img {
+          width: 150px;
+        }
+        .name {
+          font-size: 42px;
+        }
+        .text {
+          font-size: 16px;
+        }
+      }
+      .footer_info {
+        .info_menu {
+          max-width: 340px;
+          nav ul {
+            li {
+              a {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+
+        .info_contacts {
+          font-size: 13px;
+          text-align: center;
+        }
+      }
+
+      .footer_social {
+        align-items: flex-end;
+        display: flex;
+
+        .icon {
+          margin-right: -5px;
+        }
+        .icon:first-child {
+          a {
+            img {
+              width: 40px;
+            }
+          }
+        }
+        .icon:last-child {
+          a {
+            img {
+              width: 42px;
+            }
+          }
+        }
+        .icon:nth-child(2) {
+          a {
+            img {
+              width: 60px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .workshop {
+    .container {
+      .ws_img {
+        display: none;
+      }
+
+      .ws_about {
+        margin: 0 auto;
+        float: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .advantages {
+    .adv_content {
+      .container {
+        .adv_img {
+          margin-left: -232px;
+        }
+
+        .adv_items {
+          padding: 25px 0 15px 44px;
+
+          .adv_item {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .header {
+    .container {
+      .contacts_block {
+        width: 370px;
+        font-size: 10px;
+      }
+    }
+  }
+  .menu {
+    nav ul {
+      li {
+        padding: 0 10px;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 840px) {
+  .advantages {
+    .container {
+      h2 {
+        margin-left: 0;
+      }
+    }
+
+    .adv_content {
+      .container {
+        .adv_img {
+          display: none;
+        }
+
+        .adv_items {
+          padding: 40px 25px 40px 45px;
+          grid-gap: 35px 80px;
+
+          .adv_item {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .products {
+    .container {
+      .prod_items {
+        .prod_item {
+          .item_img {
+            margin-right: 35px;
+          }
+
+          .item_info {
+            h3 {
+              line-height: 1.1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .projects {
+    .container {
+      .proj_items {
+        .proj_item {
+          img {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 30px 0;
+
+    .container {
+      .footer_logo {
+        margin-right: 0;
+        img {
+          width: 125px;
+        }
+        .name {
+          font-size: 32px;
+        }
+        .text {
+          font-size: 12px;
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    position: relative;
+  }
+  .header {
+    padding: 10px 0;
+
+    .container {
+      .contacts_block {
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-direction: column;
+        width: 280px;
+      }
+
+      .logo_block {
+        .name {
+          font-size: 12px;
+        }
+      }
+
+      .menu_icon {
+        display: block;
+        position: relative;
+
+        .burger {
+          cursor: pointer;
+          padding: 24px;
+
+          span {
+            border-radius: 5px;
+            height: 4px;
+            width: 40px;
+            top: 18px;
+            right: 0;
+            background: #000000;
+            position: absolute;
+            display: block;
+            content: '';
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+
+            &:before,
+            &:after {
+              border-radius: 5px;
+              height: 4px;
+              width: 40px;
+              background: #000000;
+              position: absolute;
+              display: block;
+              content: '';
+            }
+
+            &:before {
+              top: -14px;
+            }
+
+            &:after {
+              bottom: -14px;
+            }
+
+            &:before,
+            &:after {
+              transition: all 0.1s cubic-bezier(0.77, 0, 0.175, 1);
+            }
+          }
+
+          &.active span {
+            width: 0;
+
+            &:before,
+            &:after {
+              top: 0;
+              right: 0;
+            }
+
+            &:before {
+              transform: rotate(45deg);
+            }
+
+            &:after {
+              transform: rotate(-45deg);
+            }
+          }
+        }
+      }
+    }
+  }
+  .menu {
+    z-index: 999;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    display: none;
+    background-color: #FFB800;
+
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+
+      li {
+        border: 0;
+        margin-bottom: 5px;
+
+        a {
+          color: #000;
+          border-bottom: 2px solid transparent;
+        }
+
+        a:hover {
+          border-bottom: 2px solid #000;
+        }
+      }
+    }
+  }
+  .main {
+    .container {
+      .main_logo {
+        width: 260px;
+
+        img {
+          max-width: 100%;
+        }
+      }
+
+      .main_name {
+        margin-top: -50px;
+        font-size: 76px;
+      }
+
+      .main_description {
+        font-size: 30px;
+        margin-top: -4px;
+      }
+    }
+  }
+  .workshop {
+    padding-top: 50px;
+    padding-bottom: 35px;
+
+    .container {
+      .ws_about {
+        h2 {
+          font-size: 46px;
+          line-height: 1;
+        }
+
+        .about_items {
+          .about_item {
+            .item_number {
+              font-size: 70px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .products {
+    padding: 30px 0 90px;
+
+    .container {
+      .prod_items {
+        .prod_item {
+          .item_info {
+            h3 {
+              font-size: 30px;
+            }
+
+            .info_price {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .advantages, .ws_about, .products, .ideas, .price, .contacts, .projects {
+    .container {
+      h2 {
+        font-size: 46px;
+        line-height: 1;
+      }
+    }
+  }
+  .price {
+    .container {
+      .price_info {
+        h3 {
+          font-size: 32px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  .contacts {
+    padding: 40px 0 60px;
+    .container {
+      div {
+        font-size: 26px;
+      }
+    }
+  }
+  .footer {
+    .container {
+      align-items: center;
+      .footer_info {
+        .info_menu {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .projects {
+    .container {
+      .proj_items {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer {
+    .container {
+      flex-direction: column;
+      .footer_info {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .header {
+    .container {
+      .logo_block {
+        flex-direction: column;
+        align-items: center;
+
+        .logo {
+          margin-right: 0;
+        }
+
+        .name {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  .main {
+    .container {
+      .main_logo {
+        width: 240px;
+      }
+
+      .main_name {
+        margin-top: -40px;
+        font-size: 70px;
+      }
+
+      .main_description {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .advantages {
+    .adv_content {
+      .container {
+        .adv_items {
+          grid-gap: 35px 55px;
+
+          .adv_item {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .workshop {
+    .container {
+      .ws_about {
+        h2 {
+          font-size: 42px;
+        }
+
+        .about_items {
+          .about_item {
+            .item_number {
+              font-size: 65px;
+            }
+          }
+        }
+
+        .about_img {
+          right: -37%;
+        }
+      }
+    }
+  }
+  .advantages {
+    .container {
+      h2 {
+        margin-bottom: 35px;
+      }
+    }
+  }
+  .products {
+    padding: 30px 0 90px;
+
+    .container {
+      .prod_items {
+        .prod_item {
+          margin-bottom: 45px;
+
+          .item_img {
+            width: 240px;
+            margin-right: 15px;
+
+            img {
+              max-width: 100%;
+            }
+          }
+
+          .item_info {
+            h3 {
+              font-size: 24px;
+            }
+
+            .info_description {
+              font-size: 14px;
+              margin-bottom: 15px;
+            }
+
+            .info_price {
+              font-size: 20px;
+            }
+
+            .info_time {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .advantages, .ws_about, .products, .ideas, .price, .contacts, .projects {
+    .container {
+      h2 {
+        font-size: 42px;
+      }
+    }
+  }
+
+  .price {
+    .container {
+      .price_info {
+      h3 {
+        font-size: 24px;
+      }
+        .info_text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .main {
+    .container {
+      padding-top: 30px;
+      padding-bottom: 40px;
+
+      .main_logo {
+        width: 200px;
+      }
+
+      .main_name {
+        margin-top: -30px;
+        font-size: 62px;
+      }
+
+      .main_description {
+        font-size: 20px;
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .workshop {
+    padding-bottom: 115px;
+
+    .container {
+      .ws_about {
+        h2 {
+          font-size: 36px;
+          text-align: center;
+        }
+
+        .about_items {
+          grid-template-columns: 1fr;
+          justify-items: center;
+
+          .about_item {
+            width: 300px;
+
+            .item_number {
+              margin: 0 auto;
+            }
+
+            .item_number.small {
+              width: 95px;
+              height: 65px;
+            }
+
+            .item_number.big {
+              padding-left: 10px;
+              width: 180px;
+              height: 65px;
+              text-align: center;
+            }
+
+            .item_text {
+              margin-top: 15px;
+              text-align: center;
+            }
+          }
+        }
+
+        .about_img {
+          top: 103%;
+          right: -10%;
+
+          img {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+  .advantages, .ws_about, .products, .ideas, .price, .contacts, .projects {
+    .container {
+      h2 {
+        text-align: center;
+        font-size: 36px;
+      }
+    }
+  }
+  .products {
+    padding: 30px 0 60px;
+
+    .container {
+      h2 {
+        margin-bottom: 0;
+      }
+
+      .h2_text {
+        margin-bottom: 50px;
+        text-align: center;
+
+      }
+
+      .prod_items {
+        .prod_item {
+
+          .item_info {
+            h3 {
+              font-size: 20px;
+            }
+
+            .info_price {
+              font-size: 16px;
+            }
+
+            .info_time {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .price {
+    .container {
+      .price_info {
+        h3 {
+          font-size: 22px;
+          text-align: center;
+        }
+        .info_text {
+          margin-bottom: 35px;
+        }
+      }
+    }
+  }
+  .contacts {
+    .container {
+      div {
+      text-align: center;
+      font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    .container {
+      .proj_items {
+        grid-template-columns: 150px 150px;
+        justify-content: center;
+        .proj_item {
+          img {
+            width: 130px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    .container {
+      .main_logo {
+        width: 150px;
+      }
+
+      .main_name {
+        font-size: 52px;
+      }
+
+      .main_description {
+        font-size: 16px;
+        max-width: 200px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .advantages {
+    .adv_content {
+      .container {
+        .adv_items {
+          grid-gap: 35px 45px;
+          padding: 27px 0 25px 32px;
+
+          .adv_item {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .products {
+    .container {
+      .prod_items {
+        .prod_item {
+          margin-bottom: 25px;
+          align-items: center;
+          flex-direction: column;
+
+          .item_img {
+            order: 2;
+            width: 150px;
+          }
+
+          .item_info {
+            order: 1;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  left: 0;
+  }
+  .main {
+    .container {
+      padding-top: 164px;
+      padding-bottom: 120px;
+    }
+  }
+  .workshop {
+    .container {
+      .ws_about {
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .advantages, .ws_about, .products, .ideas, .price, .contacts, .projects {
+    .container {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+  .products {
+    .container {
+      h2 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    .container {
+      flex-wrap: wrap;
+
+      .logo_block {
+        order: 1;
+      }
+
+      .contacts_block {
+        order: 3;
+        margin-top: 22px;
+        width: 430px;
+        align-items: center;
+      }
+
+      .menu_icon {
+        order: 2;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .main {
+    .container {
+      .main_logo {
+        width: 100px;
+      }
+
+      .main_name {
+        font-size: 40px;
+        margin-top: -10px;
+      }
+
+      .main_description {
+        font-size: 16px;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contacts {
+    .container {
+      div {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .advantages {
+    .adv_content {
+      .container {
+        .adv_items {
+          grid-gap: 35px 30px;
+
+          .adv_item {
+            font-size: 13px;
+          }
+
+          .adv_item:before {
+            left: -20px;
+          }
+        }
+      }
+    }
+  }
+}
